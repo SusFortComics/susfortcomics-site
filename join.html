@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us | Sus Fort Comics</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Load base64 encoded images -->
+    <script src="image_data.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><img src="" alt="Sus Fort Comics logo" class="logo-img" />Sus Fort Comics</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Join Sus Fort Comics</h1>
+      <p>Become part of our comic book community.</p>
+    </section>
+    <main class="main-content">
+      <section class="section">
+        <h2>Membership Levels</h2>
+        <p>We offer several membership options to fit every reader. Each level comes with exclusive benefits.</p>
+        <table style="width:100%; border-collapse: collapse;">
+          <thead>
+            <tr style="background-color: var(--primary); color: var(--dark);">
+              <th style="padding:0.5rem; border: 1px solid var(--primary);">Level</th>
+              <th style="padding:0.5rem; border: 1px solid var(--primary);">Annual Fee</th>
+              <th style="padding:0.5rem; border: 1px solid var(--primary);">Benefits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background-color: var(--light);">
+              <td style="padding:0.5rem; border:1px solid var(--primary);"><strong>Free</strong></td>
+              <td style="padding:0.5rem; border:1px solid var(--primary);">$0</td>
+              <td style="padding:0.5rem; border:1px solid var(--primary);">Access to public events & newsletters</td>
+            </tr>
+            <tr style="background-color: var(--light);">
+              <td style="padding:0.5rem; border:1px solid var(--primary);"><strong>Student</strong></td>
+              <td style="padding:0.5rem; border:1px solid var(--primary);">$10/year</td>
+              <td style="padding:0.5rem; border:1px solid var(--primary);">All Free level benefits + borrowing privileges & discounts</td>
+            </tr>
+            <tr style="background-color: var(--light);">
+              <td style="padding:0.5rem; border:1px solid var(--primary);"><strong>Adult</strong></td>
+              <td style="padding:0.5rem; border:1px solid var(--primary);">$25/year</td>
+              <td style="padding:0.5rem; border:1px solid var(--primary);">All Student benefits + priority event registration & exclusive merch</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="section">
+        <h2>Sign Up</h2>
+        <p>Ready to join? Fill out the form below and we’ll get back to you with next steps. Our volunteers will follow up with payment options and confirm your membership.</p>
+        <form action="mailto:info@susfortcomics.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" placeholder="Your full name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" placeholder="you@example.com" required />
+          <label for="level">Membership Level</label>
+          <select id="level" name="Membership Level" required style="width:100%; padding:0.75rem; margin-bottom:0.75rem; border:2px solid var(--primary); border-radius:4px; font-family:inherit;">
+            <option value="Free">Free</option>
+            <option value="Student">Student</option>
+            <option value="Adult">Adult</option>
+          </select>
+          <label for="message">Message (optional)</label>
+          <textarea id="message" name="Message" rows="4" placeholder="Tell us a bit about your interests"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2026 Sus Fort Comics, Inc. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
