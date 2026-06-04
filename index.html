@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sus Fort Comics Club | Home</title>
+    <title>Sus Fort Comics | Home</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- Load base64 encoded images before the main script so that variables are available -->
     <script src="image_data.js"></script>
@@ -12,13 +12,13 @@
   <body>
     <header>
       <nav>
-        <div class="logo"><img src="" alt="Sus Fort Comics logo" class="logo-img" />Sus Fort Comics</div>
+        <div class="logo">
+          <img src="" alt="Sus Fort Comics logo" class="logo-img" />Sus&nbsp;Fort&nbsp;Comics
+        </div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="events.html">Events</a></li>
           <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="buy.html">Buy</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
@@ -28,35 +28,51 @@
         </div>
       </nav>
     </header>
+    <!-- Hero section taken from former About page -->
     <section class="hero">
-      <h1>Welcome to Sus Fort Comics</h1>
-      <p>We create comics, sell cool merch and keep things funny for everyone.</p>
-      <a href="join.html" class="button">Join the Club</a>
+      <h1>About Sus&nbsp;Fort&nbsp;Comics</h1>
+      <p>Get to know the story behind our club and what drives us.</p>
     </section>
     <main class="main-content">
-      <!-- About section summary -->
-      <section class="section" id="about">
-        <h2>About Us</h2>
-        <p>Sus Fort Comics, Inc. is a West Chester–based comic book club founded by a group of friends who love graphic stories. Our mission is to sell our original comics and merch, build a vibrant community where fans of all ages can share their favorite titles and keep things funny. Whether you’re into superhero sagas, indie graphic novels or manga, you’ll find fellow enthusiasts here.</p>
+      <!-- Content moved from former About page -->
+      <section class="section">
+        <h2>Our Story</h2>
+        <p>Sus&nbsp;Fort&nbsp;Comics, Inc. began as a small gathering of comic enthusiasts in West&nbsp;Chester, Pennsylvania. What started out as casual meet‑ups at the local library quickly grew into a thriving club with members of all ages. We’ve hosted book swaps, artist talks and themed nights exploring everything from Golden Age classics to modern graphic novels.</p>
+        <p>Over the years, our passion for comics has fueled a desire to build a supportive community. Today, we proudly operate under the name “Sus&nbsp;Fort&nbsp;Comics” (inspired by our motto “suspend disbelief, fortify imagination”). We continue to welcome new readers and seasoned collectors alike.</p>
       </section>
-      <!-- Upcoming events summary -->
-      <section class="section" id="events">
-        <h2>Upcoming Events</h2>
-        <p>We meet regularly to discuss books, swap comics and attend special events. Check out our <a href="events.html">events page</a> for a full calendar and details.</p>
-        <p><strong>Next Meeting:</strong> First Sunday of every month at the West Chester Public Library.</p>
+      <section class="section">
+        <h2>Our Mission</h2>
+        <p>The goal of Sus&nbsp;Fort&nbsp;Comics, Inc. is to sell our comics and merchandise while bringing humor to our community. We aim to:</p>
+        <ul>
+          <li>Share and sell our original comics and cool merch with a healthy dose of humor.</li>
+          <li>Create an inclusive space where readers of all backgrounds feel welcome.</li>
+          <li>Promote literacy and appreciation for visual storytelling.</li>
+          <li>Support local comic book shops, creators and events.</li>
+          <li>Encourage artistic expression and collaboration among members.</li>
+        </ul>
       </section>
-      <!-- Membership summary -->
-      <section class="section" id="membership">
-        <h2>Membership</h2>
-        <p>Become a part of Sus Fort Comics and enjoy exclusive benefits such as access to our lending library, members-only discussions, early announcements and special discounts on merch. Learn more about our membership levels and how to sign up on the <a href="join.html">Join page</a>.</p>
+      <section class="section">
+        <h2>Our Team</h2>
+        <p>Sus&nbsp;Fort&nbsp;Comics is run entirely by volunteers. Meet our current organizers:</p>
+        <ul>
+          <li><strong>Luke</strong> – Founder &amp; Chief Comic Officer</li>
+          <li><strong>Sawyer</strong> – President &amp; Part‑Time Creator</li>
+          <li><strong>Julian</strong> – President &amp; Director of Comics</li>
+          <li><strong>Max</strong> – Chief Illustrator</li>
+        </ul>
+        <p>Interested in helping out? We’re always looking for passionate volunteers to join our leadership team. Contact us to learn more.</p>
       </section>
-      <!-- Gallery summary -->
-      <section class="section" id="gallery">
-        <h2>Gallery</h2>
-        <p>Our gallery showcases artwork from our members, fan art and highlights from past events. Explore the <a href="gallery.html">Gallery page</a> to see what we’ve been up to.</p>
+      <!-- Founder biography -->
+      <section class="section" id="bio">
+        <h2>Luke’s Bio</h2>
+        <p>Hi, My name is Luke! Im 9 years old and I started a Comic Book business out of my Treehouse with my brother, Sawyer. Our treehouse is called The Sus Fort because there is a lot of Sus stuff in this world! Like Taylor Swift, K‑Pop crap, Hillsdale Elementary School, and our dog Jack who eats his own POOP. What the heck!? So I created a hit comic book series called Super Squid. It is not Sus, it is the anti‑sus.</p>
       </section>
-
-      <!-- Featured photos from the club -->
+      <!-- Julian biography -->
+      <section class="section" id="julian-bio">
+        <h2>Julian’s Bio</h2>
+        <p>Julian is a very talented artist and writer. He makes a comic called the Loonies. There is currently 5 books in the series and he is making more!</p>
+      </section>
+      <!-- Home gallery: photos retained from original home page -->
       <section class="section" id="home-gallery">
         <h2>Our Club in Action</h2>
         <p>Take a peek at some moments from our comic club. These photos were captured during our meetings and creative sessions.</p>
@@ -68,13 +84,13 @@
         </div>
       </section>
       <!-- Contact summary -->
-      <section class="section" id="contact">
+      <section class="section" id="contact-summary">
         <h2>Get in Touch</h2>
         <p>Have questions or want to collaborate? Reach out via our <a href="contact.html">Contact page</a> or email us at <a href="mailto:info@susfortcomics.com">info@susfortcomics.com</a>.</p>
       </section>
     </main>
     <footer class="footer">
-      <p>&copy; 2026 Sus Fort Comics, Inc. All rights reserved.</p>
+      <p>&copy; 2026 Sus&nbsp;Fort&nbsp;Comics, Inc. All rights reserved.</p>
       <p>Designed with passion for comics.</p>
     </footer>
   </body>
